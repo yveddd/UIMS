@@ -1,0 +1,41 @@
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    user-select: none;
+    transition: all ease-in-out 0.3s;
+    background-color: #009FC1;
+   
+}
+
+header nav{
+    width: 100%;
+    max-width: var(--max-width);
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    /* margin: 0 auto; */
+    padding: 15px 25px;
+}
+h4{
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+h5{
+    color: #FFFFFF;
+    font-weight: lighter;
+    font-size: 10px;
+    letter-spacing: 2px;
+    padding-left: 5px;
+}
+
+.logo{
+    height: 55px;
+}
+
